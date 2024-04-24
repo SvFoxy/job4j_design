@@ -33,7 +33,7 @@ class BoxTest {
         String name = box.whatsThis();
         assertThat(name).isNotNull()
                 .contains("Unknown", "object")
-                .doesNotContain("Sphere","Tetrahedron", "Cube")
+                .doesNotContain("Sphere", "Tetrahedron", "Cube")
                 .startsWith("Unknown")
                 .endsWith("object")
                 .isEqualTo("Unknown object");
@@ -90,6 +90,5 @@ class BoxTest {
         double result = box.getArea();
         assertThat(result).isEqualTo(0.0d);
     }
-
 
 }
