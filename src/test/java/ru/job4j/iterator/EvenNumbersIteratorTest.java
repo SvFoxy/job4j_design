@@ -27,7 +27,7 @@ class EvenNumbersIteratorTest {
     }
 
     @Test
-    void sequentialHasNextInvocationDoesntAffectRetrievalOrder() { //1, -3, 2, 3, 5, 5, -4, 5, 6, 7})
+    void sequentialHasNextInvocationDoesntAffectRetrievalOrder() {
         assertThat(iterator.hasNext()).isTrue();
         assertThat(iterator.hasNext()).isTrue();
         assertThat(iterator.next()).isEqualTo(2);
