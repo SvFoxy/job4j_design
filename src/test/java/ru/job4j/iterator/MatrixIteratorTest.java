@@ -43,7 +43,7 @@ class MatrixIteratorTest  {
         assertThat(iterator.next()).isEqualTo(2);
         assertThat(iterator.next()).isEqualTo(3);
         assertThat(iterator.next()).isEqualTo(4);
-        assertThat(iterator.hasNext()).isFalse(); //!!!
+        assertThat(iterator.hasNext()).isFalse();
     }
 
     @Test
