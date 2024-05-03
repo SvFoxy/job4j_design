@@ -14,7 +14,7 @@ public class BackwardArrayIterator implements Iterator<Integer> {
 
     @Override
     public boolean hasNext() {
-        return point < data.length && point >= 0;
+        return point >= 0;
     }
 
     @Override
